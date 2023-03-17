@@ -234,7 +234,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -290,7 +290,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3184481346915685624, guid: 901ecea941c380248bbd322e72ad5884, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3184481346915685624, guid: 901ecea941c380248bbd322e72ad5884, type: 3}
       propertyPath: m_LocalPosition.y
@@ -340,6 +340,14 @@ PrefabInstance:
     - target: {fileID: 3637327819526187258, guid: 5bcbdf1af4feb66409ce91b27392b7ca, type: 3}
       propertyPath: m_Name
       value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637327819526187260, guid: 5bcbdf1af4feb66409ce91b27392b7ca, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637327819526187260, guid: 5bcbdf1af4feb66409ce91b27392b7ca, type: 3}
+      propertyPath: m_UsedByEffector
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3637327819526187262, guid: 5bcbdf1af4feb66409ce91b27392b7ca, type: 3}
       propertyPath: m_RootOrder
