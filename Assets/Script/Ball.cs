@@ -13,14 +13,14 @@ public class Ball : MonoBehaviour
         }
         else if(collision.gameObject.CompareTag("DeathZone"))
         {
-            Debug.Log("Qua bong da va cham voi deathzone");
+            Debug.Log("Qua bong da va cham voi deathzone,game over");
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("DeathZone"))
         {
-            Debug.Log("Qua bong da va cham voi deathzone");
+            Debug.Log("Qua bong da va cham voi deathzone, game over");
         }
     }
 }
