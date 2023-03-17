@@ -14,5 +14,6 @@ public class FirstScript : MonoBehaviour
     void Update()
     {
         // Debug.Log("Duoc gọi moi frame");
+        
     }
 }
